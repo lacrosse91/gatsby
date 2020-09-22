@@ -213,7 +213,11 @@ This is particularly important to remember if you are using a continuous
 integration system such as Travis or CircleCI to run tests, as these will fail if the snapshot is not checked into source control.
 
 If you make changes that mean you need to update the snapshot, you can do this
-by running `npm test -- -u`.
+by running the following command:
+
+```shell
+npm test -- -u
+```
 
 ## Using TypeScript
 
